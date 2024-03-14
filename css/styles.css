@@ -1,0 +1,261 @@
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Play';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-display: swap;
+	font-family: 'Play';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+}
+
+:root {
+	--color-brand-light: #2B7FFF;
+	--color-brand-dark: #011C44;
+	--color-primary-light: #FFF;
+	--color-primary-dark: #000;
+	--color-little-text: #4A4A4A;
+	--color-little-dark: #747272;
+}
+
+/* Base */
+* {
+	box-sizing: border-box;
+}
+
+body {
+	color: var(--color-brand-dark);
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	font-style: normal;
+	line-height: normal;
+	margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+}
+
+address {
+	font-style: normal;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.container {
+	width: 100%;
+	max-width: 1287px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+/* Header */
+.header {
+	background: rgba(255, 255, 255, 0.25);
+	backdrop-filter: blur(5px);
+}
+
+/* Button */
+.button {
+	padding: 16px 32px;
+	margin-bottom: 14px;
+	color: var(--color-primary-light);
+	border-radius: 32px;
+	background-color: var(--color-brand-light);
+	border: 2px solid var(--color-brand-light);
+	cursor: pointer;
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.button:hover {
+	color: var(--color-brand-dark);
+	border-radius: 32px;
+	border: 2px solid var(--color-brand-light);
+	background-color: transparent;
+}
+
+/* Link */
+.link {
+	color: var(--color-brand-dark);
+	text-decoration: none;
+}
+
+.link:hover {
+	color: var(--color-brand-light);
+	font-weight: 700;
+}
+
+/* Hero section */
+.hero-section {
+	padding-top: 16.52px;
+}
+
+.cosmetic-clinic {
+	margin-top: 16.52px;
+	margin-bottom: 16px;
+}
+
+.hero-title {
+	margin-bottom: 40px;
+	color: var(--color-brand-light);
+	font-family: 'Play', sans-serif;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 140px;
+	font-weight: 700;
+	line-height: 114px;
+}
+
+.hero-text {
+	margin-bottom: 126.81px;
+	color: var(--color-little-text);
+	font-size: 12px;
+	line-height: 18px;
+}
+
+/* About us section */
+.about-us-section {
+	padding-bottom: 88px;
+}
+
+.section-title {
+	font-family: 'Play', sans-serif;
+	font-size: 64px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+}
+
+.section-title .accent {
+	color: var(--color-brand-light);
+	text-transform: capitalize;
+}
+
+.about-us-title {
+	margin-top: 39.66px;
+	margin-bottom: 40px;
+}
+
+.about-us-text {
+	font-size: 22px;
+	line-height: 38px;
+}
+
+.about-us-text .accent {
+	font-weight: 600;
+	text-transform: capitalize;
+}
+
+.first {
+	margin-bottom: 40px;
+}
+
+.second {
+	margin-bottom: 199px;
+}
+
+/* Why we section */
+.why-we-section {
+	padding-top: 88px;
+	padding-bottom: 48px;
+}
+
+.why-we-title {
+	margin-bottom: 48px;
+}
+
+.why-we-text {
+	color: var(--color-primary-dark);
+	text-align: center;
+	line-height: 24px;
+}
+
+/* Our procedures section */
+.our-procedures-section {
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+.our-procedures-text {
+	color: var(--color-primary-light);
+	text-align: center;
+	font-size: 22px;
+	line-height: 26px;
+}
+
+/* Contact section */
+.contact-section {
+	padding-top: 48px;
+	padding-bottom: 47px;
+}
+
+.contact-title {
+	margin-bottom: 48px;
+}
+
+/* Footer */
+.footer {
+	padding-top: 47px;
+	background: var(--color-brand-dark);
+}
+
+.footer-link {
+	margin-bottom: 16px;
+	color: var(--color-primary-light);
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.footer-link:hover {
+	color: var(--color-brand-light);
+	font-weight: 700;
+}
+
+.address-link {
+	margin-bottom: 16px;
+	color: var(--color-primary-light);
+	font-size: 16px;
+	text-decoration: none;
+}
+
+.address-link:hover {
+	color: var(--color-brand-light);
+	font-size: 16px;
+}
+
+.address-copyright {
+	color: var(--color-little-dark);
+	font-size: 13px;
+}
